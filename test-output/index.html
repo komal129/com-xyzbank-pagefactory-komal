@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Regression_Suit" class="navigator-link">
+              <span class="suite-name border-passed">Regression Suit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Regression_Suit" class="navigator-link ">
+                    <span>C:\Users\Komal\IdeaProjects\com-xyzbank-pagefactory-komal\src\test\java\resources\runners\regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Regression_Suit" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Regression_Suit" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Regression_Suit" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Regression_Suit" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Regression_Suit" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Regression_Suit" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Suit" class="hide-methods passed suite-Regression_Suit"> (hide)</a> <!-- hide-methods passed suite-Regression_Suit -->
+                      <a href="#" panel-name="suite-Regression_Suit" class="show-methods passed suite-Regression_Suit"> (show)</a> <!-- show-methods passed suite-Regression_Suit -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_Suit">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suit" title="com.bank.testsuite.BankTest" class="method navigator-link" hash-for-method="bankManagerShouldAddCustomerSuccessfully">bankManagerShouldAddCustomerSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suit" title="com.bank.testsuite.BankTest" class="method navigator-link" hash-for-method="bankManagerShouldOpenAccountSuccessfully">bankManagerShouldOpenAccountSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suit" title="com.bank.testsuite.BankTest" class="method navigator-link" hash-for-method="customerShouldDepositMoneySuccessfully">customerShouldDepositMoneySuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suit" title="com.bank.testsuite.BankTest" class="method navigator-link" hash-for-method="customerShouldLoginAndLogoutSuccessfully">customerShouldLoginAndLogoutSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_Suit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_Suit" class="panel Regression_Suit">
+          <div class="suite-Regression_Suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bank.testsuite.BankTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankManagerShouldAddCustomerSuccessfully">
+                  </a> <!-- bankManagerShouldAddCustomerSuccessfully -->
+                  <span class="method-name">bankManagerShouldAddCustomerSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankManagerShouldOpenAccountSuccessfully">
+                  </a> <!-- bankManagerShouldOpenAccountSuccessfully -->
+                  <span class="method-name">bankManagerShouldOpenAccountSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerShouldDepositMoneySuccessfully">
+                  </a> <!-- customerShouldDepositMoneySuccessfully -->
+                  <span class="method-name">customerShouldDepositMoneySuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerShouldLoginAndLogoutSuccessfully">
+                  </a> <!-- customerShouldLoginAndLogoutSuccessfully -->
+                  <span class="method-name">customerShouldLoginAndLogoutSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suit-class-passed -->
+        </div> <!-- panel Regression_Suit -->
+        <div panel-name="test-xml-Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Komal\IdeaProjects\com-xyzbank-pagefactory-komal\src\test\java\resources\runners\regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Regression Suit&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;regression&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;regression&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bank.customlisteners.CustomListeners&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bank.testsuite.BankTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Test --&gt;
+&lt;/suite&gt; &lt;!-- Regression Suit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankManagerShouldAddCustomerSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankManagerShouldOpenAccountSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">customerShouldDepositMoneySuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">customerShouldLoginAndLogoutSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankManagerShouldAddCustomerSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankManagerShouldOpenAccountSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_Suit');
+function tableData_Regression_Suit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'bankManagerShouldOpenAccountSuccessfully')
+data.setCell(0, 2, 'com.bank.testsuite.BankTest')
+data.setCell(0, 3, 2005);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'customerShouldDepositMoneySuccessfully')
+data.setCell(1, 2, 'com.bank.testsuite.BankTest')
+data.setCell(1, 3, 1569);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'customerShouldLoginAndLogoutSuccessfully')
+data.setCell(2, 2, 'com.bank.testsuite.BankTest')
+data.setCell(2, 3, 1568);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bankManagerShouldAddCustomerSuccessfully')
+data.setCell(3, 2, 'com.bank.testsuite.BankTest')
+data.setCell(3, 3, 1164);
+window.suiteTableData['Regression_Suit']= { tableData: data, tableDiv: 'times-div-Regression_Suit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-Regression_Suit">
+              </div> <!-- times-div-Regression_Suit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">customerShouldLoginAndLogoutSuccessfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on login button[[ChromeDriver: chrome on WINDOWS (29c2125a70b221ea54b519662e5757e8)] -> xpath: //button[contains(text(),'Customer Login')]]</span>
+                <span class="reporter-method-output">Selecting customer from dropdown[[[ChromeDriver: chrome on WINDOWS (29c2125a70b221ea54b519662e5757e8)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (29c2125a70b221ea54b519662e5757e8)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (29c2125a70b221ea54b519662e5757e8)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (29c2125a70b221ea54b519662e5757e8)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (29c2125a70b221ea54b519662e5757e8)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (29c2125a70b221ea54b519662e5757e8)] -> xpath: //form[@role='form']/child::div[1]/select/child::*]]</span>
+                <span class="reporter-method-output">Clicking on login button[[ChromeDriver: chrome on WINDOWS (29c2125a70b221ea54b519662e5757e8)] -> xpath: //button[contains(text(),'Login')]]</span>
+                <span class="reporter-method-output">Verifying logout message</span>
+                <span class="reporter-method-output">Clicking on logout button[[ChromeDriver: chrome on WINDOWS (29c2125a70b221ea54b519662e5757e8)] -> xpath: //button[contains(text(),'Logout')]]</span>
+                <span class="reporter-method-output">Verifying Your Name heading</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">bankManagerShouldOpenAccountSuccessfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on Manager Login tab</span>
+                <span class="reporter-method-output">Clicking on add customer button[[ChromeDriver: chrome on WINDOWS (d7825e940079c17ef6cfb0404191f63f)] -> xpath: //button[contains(text(),'Add Customer')]]</span>
+                <span class="reporter-method-output">Enter firstname Joe to name field [[ChromeDriver: chrome on WINDOWS (d7825e940079c17ef6cfb0404191f63f)] -> xpath: //form//input[@placeholder='First Name']]</span>
+                <span class="reporter-method-output">Enter lastname Smith to lastname field [[ChromeDriver: chrome on WINDOWS (d7825e940079c17ef6cfb0404191f63f)] -> xpath: //form//input[@placeholder='Last Name']]</span>
+                <span class="reporter-method-output">Enter postcode 380019 to postcode field [[ChromeDriver: chrome on WINDOWS (d7825e940079c17ef6cfb0404191f63f)] -> xpath: //form//input[@placeholder='Post Code']]</span>
+                <span class="reporter-method-output">Clicking on add customer button[[ChromeDriver: chrome on WINDOWS (d7825e940079c17ef6cfb0404191f63f)] -> xpath: //button[@type='submit']]</span>
+                <span class="reporter-method-output">Verifying popup text</span>
+                <span class="reporter-method-output">Clicking on open account tab[[ChromeDriver: chrome on WINDOWS (d7825e940079c17ef6cfb0404191f63f)] -> xpath: //button[contains(text(),'Open Account')]]</span>
+                <span class="reporter-method-output">Selecting customer name from dropdown</span>
+                <span class="reporter-method-output">Selecting currency name from dropdown</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">bankManagerShouldAddCustomerSuccessfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on Manager Login tab</span>
+                <span class="reporter-method-output">Clicking on add customer button[[ChromeDriver: chrome on WINDOWS (708a439e75a43b24ad22edd832da61c6)] -> xpath: //button[contains(text(),'Add Customer')]]</span>
+                <span class="reporter-method-output">Enter firstname Joe to name field [[ChromeDriver: chrome on WINDOWS (708a439e75a43b24ad22edd832da61c6)] -> xpath: //form//input[@placeholder='First Name']]</span>
+                <span class="reporter-method-output">Enter lastname Smith to lastname field [[ChromeDriver: chrome on WINDOWS (708a439e75a43b24ad22edd832da61c6)] -> xpath: //form//input[@placeholder='Last Name']]</span>
+                <span class="reporter-method-output">Enter postcode 380019 to postcode field [[ChromeDriver: chrome on WINDOWS (708a439e75a43b24ad22edd832da61c6)] -> xpath: //form//input[@placeholder='Post Code']]</span>
+                <span class="reporter-method-output">Clicking on add customer button[[ChromeDriver: chrome on WINDOWS (708a439e75a43b24ad22edd832da61c6)] -> xpath: //button[@type='submit']]</span>
+                <span class="reporter-method-output">Verifying popup text</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">customerShouldDepositMoneySuccessfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicking on login button[[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //button[contains(text(),'Customer Login')]]</span>
+                <span class="reporter-method-output">Selecting customer from dropdown[[[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //form[@role='form']/child::div[1]/select/child::*], [[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //form[@role='form']/child::div[1]/select/child::*]]</span>
+                <span class="reporter-method-output">Clicking on login button[[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //button[contains(text(),'Login')]]</span>
+                <span class="reporter-method-output">Clicking on continue button[[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //div[@class='borderM box padT20 ng-scope']/div[3]/button[2]]</span>
+                <span class="reporter-method-output">Enter amount 100 to amount field [[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //input[@placeholder='amount']]</span>
+                <span class="reporter-method-output">Clicking on continue button[[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //button[@class='btn btn-default'][contains(text(),'Deposit')]]</span>
+                <span class="reporter-method-output">Deposit successfull message[[ChromeDriver: chrome on WINDOWS (94c8c95a88385b4172eb2ce51ad33a9a)] -> xpath: //span[contains(text(), 'Deposit Successful')]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bank.testsuite.BankTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">customerShouldWithdrawMoneySuccessfully</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bank.testsuite.BankTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">3963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bankManagerShouldAddCustomerSuccessfully</span>
+                <span class="method-start">4000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5176 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">7478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bankManagerShouldOpenAccountSuccessfully</span>
+                <span class="method-start">7481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">17099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">customerShouldDepositMoneySuccessfully</span>
+                <span class="method-start">17102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">inIt</span>
+                <span class="method-start">21560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">customerShouldLoginAndLogoutSuccessfully</span>
+                <span class="method-start">21562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23130 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
